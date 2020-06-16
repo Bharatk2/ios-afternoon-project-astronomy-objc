@@ -19,6 +19,8 @@
 		3FAB08AC249868C7007895AD /* LSIFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08A5249868C6007895AD /* LSIFileHelper.m */; };
 		3FAB08AD249868C7007895AD /* URL+Secure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08A9249868C6007895AD /* URL+Secure.swift */; };
 		3FAB08AF24987D00007895AD /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08AE24987D00007895AD /* PhotoDetailViewController.swift */; };
+		3FAB08B824988314007895AD /* MarsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08B724988314007895AD /* MarsPhoto.swift */; };
+		3FAB08BB24988365007895AD /* LSICamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08BA24988365007895AD /* LSICamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		3FAB08A8249868C6007895AD /* LSILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSILog.h; sourceTree = "<group>"; };
 		3FAB08A9249868C6007895AD /* URL+Secure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Secure.swift"; sourceTree = "<group>"; };
 		3FAB08AE24987D00007895AD /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		3FAB08B724988314007895AD /* MarsPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsPhoto.swift; sourceTree = "<group>"; };
+		3FAB08B924988365007895AD /* LSICamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSICamera.h; sourceTree = "<group>"; };
+		3FAB08BA24988365007895AD /* LSICamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSICamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,9 @@
 		3FAB08B324987D8A007895AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3FAB08B724988314007895AD /* MarsPhoto.swift */,
+				3FAB08B924988365007895AD /* LSICamera.h */,
+				3FAB08BA24988365007895AD /* LSICamera.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 			files = (
 				3FAB08AD249868C7007895AD /* URL+Secure.swift in Sources */,
 				3FAB08882498687D007895AD /* AppDelegate.m in Sources */,
+				3FAB08BB24988365007895AD /* LSICamera.m in Sources */,
 				3FAB08AA249868C7007895AD /* LSILog.m in Sources */,
 				3FAB08992498687F007895AD /* main.m in Sources */,
 				3FAB08A12498689D007895AD /* PhotosCollectionViewController.swift in Sources */,
@@ -234,6 +243,7 @@
 				3FAB08AF24987D00007895AD /* PhotoDetailViewController.swift in Sources */,
 				3FAB088B2498687D007895AD /* SceneDelegate.m in Sources */,
 				3FAB08AB249868C7007895AD /* LSIErrors.m in Sources */,
+				3FAB08B824988314007895AD /* MarsPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
