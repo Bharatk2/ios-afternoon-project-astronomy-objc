@@ -21,6 +21,7 @@
 		3FAB08AF24987D00007895AD /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08AE24987D00007895AD /* PhotoDetailViewController.swift */; };
 		3FAB08B824988314007895AD /* MarsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08B724988314007895AD /* MarsPhoto.swift */; };
 		3FAB08BB24988365007895AD /* LSICamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB08BA24988365007895AD /* LSICamera.m */; };
+		3FF77D14249A6CBA00F965E0 /* LSISolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF77D13249A6CBA00F965E0 /* LSISolDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		3FAB08B724988314007895AD /* MarsPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsPhoto.swift; sourceTree = "<group>"; };
 		3FAB08B924988365007895AD /* LSICamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSICamera.h; sourceTree = "<group>"; };
 		3FAB08BA24988365007895AD /* LSICamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSICamera.m; sourceTree = "<group>"; };
+		3FF77D12249A6CBA00F965E0 /* LSISolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSISolDescription.h; sourceTree = "<group>"; };
+		3FF77D13249A6CBA00F965E0 /* LSISolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSISolDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				3FAB08B724988314007895AD /* MarsPhoto.swift */,
 				3FAB08B924988365007895AD /* LSICamera.h */,
 				3FAB08BA24988365007895AD /* LSICamera.m */,
+				3FF77D12249A6CBA00F965E0 /* LSISolDescription.h */,
+				3FF77D13249A6CBA00F965E0 /* LSISolDescription.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 				3FAB08882498687D007895AD /* AppDelegate.m in Sources */,
 				3FAB08BB24988365007895AD /* LSICamera.m in Sources */,
 				3FAB08AA249868C7007895AD /* LSILog.m in Sources */,
+				3FF77D14249A6CBA00F965E0 /* LSISolDescription.m in Sources */,
 				3FAB08992498687F007895AD /* main.m in Sources */,
 				3FAB08A12498689D007895AD /* PhotosCollectionViewController.swift in Sources */,
 				3FAB08AC249868C7007895AD /* LSIFileHelper.m in Sources */,
